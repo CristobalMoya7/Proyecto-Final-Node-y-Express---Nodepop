@@ -37,13 +37,12 @@ This command `npm run init-db` will erase the database and automatically load a 
 4.- The schema is: name: String, sales: Boolean, price: Number, photo: String, tags: [String]
 ```JSON
  "_id": "65e3903571fd11524fe63bc9",
-            "name": "patinete",
-            "sales": true,
-            "price": 230.15,
-            "photo": "patinete.jpg",
+            "name": "Mercedes",
+            "sales": false,
+            "price": 40.000,
+            "photo": "mercedes.jpg",
             "tags": [
-                "lifestyle",
-                "motor"
+                "vehicle"
             ],
 ```
 
@@ -53,53 +52,76 @@ Postman can be used to test the methods.
 
 ## Filters
 
+## Available Filters
+
+### Filter by name:
 ```
-Filter by name:
-http://127.0.0.1:3000/api/adds?name=nintendo
-
-Filter by name("ni" is included in the name of product):
-http://127.0.0.1:3000/api/adds?name=ni
-
-Filter by sales (boolean -true or false):
-http://127.0.0.1:3000/api/adds?sales=true
-
-Filter by price:
-http://127.0.0.1:3000/api/adds?price=20
-
-Filter by range of price (returns articles between that range of prices):
-http://127.0.0.1:3000/api/adds?priceRange=5-20
-
-Filter by tags:
-http://127.0.0.1:3000/api/adds?tags=lifestyle&tags=motor
-
-Filter by id:
-http://127.0.0.1:3000/api/adds/65e3903571fd11524fe63bc9
-
-Filter by tags:
-http://127.0.0.1:3000/tags
-
-Sort by price ascending:
-http://127.0.0.1:3000/api/adds?sort=price
-
-Sort by price desscending:
-http://127.0.0.1:3000/api/adds?sort=-price
-
-Combination of filters:
-http://127.0.0.1:3000/api/adds?sales=true&tags=mobile
-
-Delete:
-http://127.0.0.1:3000/api/adds/65e3903571fd11524fe63bdc
-Reply Postman with status200
+- To filter by a specific product name, use the following URL:
+  - `http://127.0.0.1:3000/api/adds?name=Audi`
+  ```
 ```
+- To search for a name containing a specific string, such as "au," in the product name, use:
+  - `http://127.0.0.1:3000/api/adds?name=au`
+```
+### Filter by sales (boolean - true or false):
+```
+- You can filter by sales using:
+  - `http://127.0.0.1:3000/api/adds?sales=true`
+  ```
+
+### Filter by price:
+```
+- To filter by a specific price, use:
+  - `http://127.0.0.1:3000/api/adds?price=20000`
+  ```
+
+### Filter by price range (returns articles within that price range):
+```
+- You can specify a price range using the format "lowerPrice-higherPrice":
+  - `http://127.0.0.1:3000/api/adds?priceRange=5000-30000`
+  ```
+
+### Filter by tags:
+```
+- To filter by tags, use one or more tags separated by "&":
+  - `http://127.0.0.1:3000/api/adds?tags=vehicle&tags=powerful`
+  ```
+
+### Filter by ID:
+```
+- To filter by a specific ID, use the following URL:
+  - `http://127.0.0.1:3000/api/adds/65e3903571fd11524fe63bc9`
+  ```
+
+### Sort by price ascending:
+```
+- To sort the results by price in ascending order, use:
+  - `http://127.0.0.1:3000/api/adds?sort=price`
+  ```
+
+### Sort by price descending:
+```
+- To sort the results by price in descending order, use:
+  - `http://127.0.0.1:3000/api/adds?sort=-price`
+  ```
+
+### Combination of filters:
+```
+- You can combine multiple filters, for example, filter by sales and tags:
+  - `http://127.0.0.1:3000/api/adds?sales=true&tags=vehicle`
+  ```
+
+### Delete:
+```
+- To delete an advertisement, use the DELETE method and provide the ID of the advertisement you wish to delete:
+  - `http://127.0.0.1:3000/api/adds/65e3903571fd11524fe63bdc`
+  ```
+
+## Postman Response
+When sending a request to the API, expect to receive a response with a status 200.
+
 # Validations
 All included in routes/api/tags in the main method
 
-# Contribution
-If you want to contribute, follow these steps:
-
-1.-Fork this repository.
-2.- Create a new branch for your feature or fix.
-3.- Make your changes and create a pull request.
-
 # License
-This project is open to collaboration.
+Final project Cristóbal Moya Lorente.

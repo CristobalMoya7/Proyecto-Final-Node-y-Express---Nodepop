@@ -1,223 +1,230 @@
-[{
-    "name": "patinete",
-    "sales": true,
-    "price": 230.15,
-    "photo": "patinete.jpg",
-    "tags": [
-        "lifestyle",
-        "motor"
-    ]
-},
-{
-    "name": "iPhone 3GS",
-    "sales": false,
-    "price": 50,
-    "photo": "iphone.png",
-    "tags": [
-        "lifestyle",
-        "mobile"
-    ]
-},
-{
-    "name": "nintendo switch",
-    "sales": true,
-    "price": 20,
-    "photo": "nintendo.jpg",
-    "tags": [
-        "lifestyle",
-        "mobile"
-    ]
-},
-{
-    "name": "cinta de correr",
-    "sales": true,
-    "price": 135,
-    "photo": "cinta_de_correr.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "cadenas de nieve",
-    "sales": true,
-    "price": 42,
-    "photo": "cadenas_de_nieve.jpg",
-    "tags": [
-        "motor"
-    ]
-},
-{
-    "name": "volante",
-    "sales": true,
-    "price": 492,
-    "photo": "volante.jpg",
-    "tags": [
-        "motor"
-    ]
-},
-{
-    "name": "tractorcarro pasquali",
-    "sales": true,
-    "price": 1992,
-    "photo": "tractorcarro_pasquali.jpg",
-    "tags": [
-        "motor"
-    ]
-},
-{
-    "name": "moto honda",
-    "sales": false,
-    "price": 1500,
-    "photo": "moto_honda.jpg",
-    "tags": [
-        "motor"
-    ]
-},
-{
-    "name": "radio philips",
-    "sales": true,
-    "price": 40,
-    "photo": "radio_philips.jpg",
-    "tags": [
-        "motor"
-    ]
-},
-{
-    "name": "silla comedor concept",
-    "sales": true,
-    "price": 340,
-    "photo": "silla_comedor.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "muebles terraza",
-    "sales": true,
-    "price": 140,
-    "photo": "muebles_terraza.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "mueble tv",
-    "sales": true,
-    "price": 210,
-    "photo": "mueble_tv.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "mueble zapatero",
-    "sales": false,
-    "price": 20,
-    "photo": "mueble_zapatero.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "espejo pared",
-    "sales": false,
-    "price": 40,
-    "photo": "espejo_pared.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "teclado gaming",
-    "sales": true,
-    "price": 140,
-    "photo": "teclado.jpg",
-    "tags": [
-        "lifestyle",
-        "work"
-    ]
-},
-{
-    "name": "monitor PC 39 pulgadas ",
-    "sales": true,
-    "price": 240,
-    "photo": "monitor.jpg",
-    "tags": [
-        "lifestyle",
-        "work"
-    ]
-},
-{
-    "name": "impresora HP",
-    "sales": false,
-    "price": 40,
-    "photo": "impresora.jpg",
-    "tags": [
-        "lifestyle",
-        "work"
-    ]
-},
-{
-    "name": "traje foliada",
-    "sales": true,
-    "price": 240,
-    "photo": "traje_foliada.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "perfume guerlain",
-    "sales": true,
-    "price": 100,
-    "photo": "perfume_guerlain.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "reloj swatch",
-    "sales": false,
-    "price": 30,
-    "photo": "relow_swatch.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "reloj casio",
-    "sales": false,
-    "price": 30,
-    "photo": "relow_casio.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "camisa franela",
-    "sales": false,
-    "price": 39,
-    "photo": "camisa_franela.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "chaqueta north face",
-    "sales": false,
-    "price": 32,
-    "photo": "chaqueta_north_Face.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-},
-{
-    "name": "zapatillas munich",
-    "sales": false,
-    "price": 32,
-    "photo": "zapatillas_Munich.jpg",
-    "tags": [
-        "lifestyle"
-    ]
-}
+[
+    {
+        "name": "Audi",
+        "sales": true,
+        "price": 35000,
+        "photo": "audi.jpg",
+        "tags": [
+            "vehicle",
+            "powerful"
+        ]
+    },
+    {
+        "name": "Mercedes",
+        "sales": false,
+        "price": 40000,
+        "photo": "mercedes.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "Volkswagen",
+        "sales": true,
+        "price": 28000,
+        "photo": "volkswagen.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "Ford",
+        "sales": true,
+        "price": 25000,
+        "photo": "ford.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "BMW",
+        "sales": true,
+        "price": 40000,
+        "photo": "bmw.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "Renault",
+        "sales": true,
+        "price": 20000,
+        "photo": "renault.jpg",
+        "tags": [
+            "vehicle",
+            "powerful"
+        ]
+    },
+    {
+        "name": "Peugeot",
+        "sales": true,
+        "price": 18000,
+        "photo": "peugeot.jpg",
+        "tags": [
+            "vehicle",
+            "powerful"
+        ]
+    },
+    {
+        "name": "Fiat",
+        "sales": false,
+        "price": 16000,
+        "photo": "fiat.jpg",
+        "tags": [
+            "vehicle",
+            "powerful"
+        ]
+    },
+    {
+        "name": "Seat",
+        "sales": true,
+        "price": 22000,
+        "photo": "seat.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "Tesla",
+        "sales": true,
+        "price": 70000,
+        "photo": "tesla.jpg",
+        "tags": [
+            "vehicle",
+            "technological"
+        ]
+    },
+    {
+        "name": "Toyota",
+        "sales": true,
+        "price": 30000,
+        "photo": "toyota.jpg",
+        "tags": [
+            "vehicle",
+            "technological"
+        ]
+    },
+    {
+        "name": "Hyundai",
+        "sales": true,
+        "price": 25000,
+        "photo": "hyundai.jpg",
+        "tags": [
+            "vehicle",
+            "technological"
+        ]
+    },
+    {
+        "name": "Kia",
+        "sales": false,
+        "price": 23000,
+        "photo": "kia.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "Mazda",
+        "sales": false,
+        "price": 22000,
+        "photo": "mazda.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "Porsche",
+        "sales": true,
+        "price": 120000,
+        "photo": "porsche.jpg",
+        "tags": [
+            "vehicle",
+            "powerful"
+        ]
+    },
+    {
+        "name": "Lamborghini",
+        "sales": true,
+        "price": 350000,
+        "photo": "lamborghini.jpg",
+        "tags": [
+            "vehicle",
+            "powerful"
+        ]
+    },
+    {
+        "name": "Ferrari",
+        "sales": false,
+        "price": 250000,
+        "photo": "ferrari.jpg",
+        "tags": [
+            "vehicle",
+            "powerful"
+        ]
+    },
+    {
+        "name": "Bugatti",
+        "sales": true,
+        "price": 3000000,
+        "photo": "bugatti.jpg",
+        "tags": [
+            "vehicle",
+            "powerful"
+        ]
+    },
+    {
+        "name": "McLaren",
+        "sales": true,
+        "price": 250000,
+        "photo": "mclaren.jpg",
+        "tags": [
+            "vehicle",
+            "powerful"
+        ]
+    },
+    {
+        "name": "Rolls-Royce",
+        "sales": false,
+        "price": 500000,
+        "photo": "rollsroyce.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "Bentley",
+        "sales": false,
+        "price": 400000,
+        "photo": "bentley.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "Aston Martin",
+        "sales": false,
+        "price": 350000,
+        "photo": "astonmartin.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "Jaguar",
+        "sales": false,
+        "price": 200000,
+        "photo": "jaguar.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    },
+    {
+        "name": "Land Rover",
+        "sales": false,
+        "price": 150000,
+        "photo": "landrover.jpg",
+        "tags": [
+            "vehicle"
+        ]
+    }
 ]

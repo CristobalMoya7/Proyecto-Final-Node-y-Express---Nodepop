@@ -9,7 +9,7 @@ router.get('/', [
     query('name').optional().notEmpty().withMessage("Name cannot be empty"),
     query('price').optional().isNumeric().withMessage("Price must be a number"),
     query('sales').optional().isIn(['true', 'false']).withMessage("Sales is boolean -true or false"),
-    query('tags').optional().isIn(['work', 'lifestyle', 'motor', 'mobile']).withMessage("Tags must be chosen from this list: 'work', 'lifestyle', 'motor', 'mobile'")
+    query('tags').optional().isIn(['vehicle', 'powerful', 'technological']).withMessage("Tags must be chosen from this list: 'vehicle', 'technological'")
 ], async function (req, res, next) {
     try{
         validationResult(req).throw();
