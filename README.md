@@ -31,7 +31,7 @@ Setted in environment variables for Android and IOS systems.
 * Warning!!!!
 This command `npm run init-db` will erase the database and automatically load a couple of ads.
 
-1.- Run npm run init-db to start THE API ONCE and automatically load a bunch of ads. (EYE! READ WARNING)
+1.- Run npm run init-db to start THE API ONCE and automatically load a bunch of ads.
 2.- Run npm run dev to access the API at http://localhost:3000.
 3.- In NoSQLBooster the database will be created at localhost/dbadds/adds
 4.- The schema is: name: String, sales: Boolean, price: Number, photo: String, tags: [String]
